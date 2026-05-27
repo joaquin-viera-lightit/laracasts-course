@@ -23,7 +23,7 @@
                         <div class="ml-10 flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                             <x-nav-link :active="request()->path() === '/'" href="/">Home</x-nav-link>
-                            <x-nav-link :active="request()->path() === 'about'" href="/about">About</x-nav-link>
+                            <x-nav-link :active="request()->path() === 'jobs'" href="/jobs">Jobs</x-nav-link>
                             <x-nav-link :active="request()->path() === 'contact'" href="/contact">Contact</x-nav-link>
 
                         </div>
@@ -83,8 +83,8 @@
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                 <a href="/" aria-current="page"
                     class="block rounded-md px-3 py-2 text-base font-medium text-white {{ request()->path() === '/' ? 'bg-gray-950/50' : 'text-gray-300 hover:bg-white/5' }}">Home</a>
-                <a href="/about"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-white {{ request()->path() === 'about' ? 'bg-gray-950/50' : 'text-gray-300 hover:bg-white/5' }}">About</a>
+                <a href="/jobs"
+                    class="block rounded-md px-3 py-2 text-base font-medium text-white {{ request()->path() === 'jobs' ? 'bg-gray-950/50' : 'text-gray-300 hover:bg-white/5' }}">Jobs</a>
                 <a href="/contact"
                     class="block rounded-md px-3 py-2 text-base font-medium text-white {{ request()->path() === 'contact' ? 'bg-gray-950/50' : 'text-gray-300 hover:bg-white/5' }}">Contact</a>
 
