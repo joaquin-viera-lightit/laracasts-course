@@ -8,3 +8,6 @@
 8. Agregar un heading al layout y usarlo en las views
 9. Tailwind
 10. x-slot:heading
+11. Jobs data
+12. ID link
+13. Jobs global var
